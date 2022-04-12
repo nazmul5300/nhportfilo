@@ -1,0 +1,272 @@
+
+/* ==== Extra small device responsive layout =====  */
+/* ==== navigation section  Extra small device responsive =====  */
+@media (max-width:575.98px) {
+  .social-media {
+    display: none;
+  }
+  .banner-text {
+    top: 20%;
+    left: 25%;
+  }
+  .banner-text h1 {
+    font-size: 35px;
+  
+    line-height: 41px;
+  }
+  .banner-text-2 {
+    font-size: 20px;
+  }
+  .banner-img1 img {
+    width: 330px;
+    height: 330px;
+  }
+  .banner-img2 img {
+    display: none;
+  }
+  .banner {
+    height: 600px;
+  }
+  
+}
+
+/* ==== Service  section Extra small device responsive  strat =====  */
+@media screen and (max-width:575.98px){
+  .text-box {
+    padding-top: 40px;
+    display: inline-block;
+  }
+  .box-1 {
+    margin-bottom:15px;
+   
+  }
+  .box-icon {
+    margin-left: 205px;
+  }
+}
+
+/* ====== protfilo image Extra small device responsive =======  */
+@media screen and (max-width:575.98px){
+.img-area-1 {
+  display: inline-block;
+}
+.img-area-1 .img-1 img {
+  padding-bottom: 15px;
+}
+.protfilo-bottom {
+  margin-top: 45px;
+  display: block;
+}
+.image-2 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+}
+
+/* ====== About section Extra small device responsive =======  */
+@media screen and (max-width:575.98px){
+.about-section {
+  display: inline-block;
+}
+.grid-container {
+  display: inline;
+}
+.column {
+  border: 1px solid #7743e0;
+  padding: 50px 0px;
+  margin-bottom: 15px;
+}
+}
+/* ====== carosel section Extra small device responsive =======  */
+@media screen and (max-width:575.98px){
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  display:none;
+}
+}
+
+/* ====== footer section  small device responsive =======  */
+@media screen and (max-width:575.98px){
+  .footer-flex {
+    display: inline-block;
+  }
+  .footer-part{
+    margin-top:30px;
+  }
+}
+
+/* ---------------------- Extra Small device Recponsive End Here------------ */
+
+
+
+
+
+/* == ====== Small device responsive css ======  */
+
+/* ==== navigation section Small device responsive =====  */
+@media (min-width:576px) and (max-width: 767.98px){
+  .social-media {
+    display: none;
+  }
+  .banner-text {
+    top: 20%;
+    left: 30%;
+  }
+  .banner-text h1 {
+    font-size: 50px;
+    letter-spacing:5px;
+    line-height: 48px;
+  }
+  .banner-text-2 {
+    font-size: 30px;
+  }
+  .banner-img1 img {
+    width: 330px;
+    height: 330px;
+  }
+  .banner-img2 img {
+    display: none;
+  }
+  .banner {
+    height: 600px;
+  }
+  
+}
+
+/* ==== Service  section Small device responsive  strat =====  */
+@media (min-width:576px) and (max-width: 767.98px){
+  .text-box {
+    padding-top: 40px;
+    display: inline-block;
+  }
+  .box-1 {
+    margin-bottom:15px;
+   
+  }
+  .box-icon {
+    margin-left: 205px;
+  }
+}
+
+/* ====== protfilo image Small device responsive =======  */
+@media (min-width:576px) and (max-width: 767.98px){
+.img-area-1 {
+  display: inline-block;
+}
+.img-area-1 .img-1 img {
+  padding-bottom: 15px;
+}
+.protfilo-bottom {
+  margin-top: 45px;
+  display: block;
+}
+.image-2 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+}
+
+/* ====== About section Small  device responsive =======  */
+@media (min-width:576px) and (max-width: 767.98px){
+.about-section {
+  display: inline-block;
+}
+.grid-container {
+  display: inline;
+}
+.column {
+  border: 1px solid #7743e0;
+  padding: 50px 0px;
+  margin-bottom: 15px;
+}
+}
+/* ====== carosel section Small device responsive =======  */
+@media (min-width:576px) and (max-width: 767.98px){
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  display:none;
+}
+}
+
+/* ====== footer section  Small  device responsive =======  */
+@media (min-width:576px) and (max-width: 767.98px){
+  .footer-flex {
+    display: inline-block;
+  }
+  .footer-part{
+    margin-top:30px;
+  }
+}
+
+
+
+
+
+/* ---------------------- Small device Recponsive End Here------------ */
+
+
+
+
+
+/* == ====== mediam device responsive css ======  */
+
+/* ==== navigation section Mediam device responsive =====  */
+@media (min-width:768px) and (max-width:991px){
+  .banner-img1 img {
+    width: 300px;
+    height: 390px;
+  }
+  .banner-img2 img {
+    display:none;
+  }
+  .banner-text {
+    position: absolute;
+    left: 58%;
+    top: 26%;
+  }
+  .banner-text h1 {
+    font-size: 55px;
+  }
+  .banner-text-2{
+    text-align:0;
+  }
+}
+
+
+/* ==== Service  section Mediam device responsive  strat =====  */
+@media (min-width:768px) and (max-width:991px){
+.text-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+}
+/* ====== protfilo image Mediam device responsive =======  */
+@media (min-width:768px) and (max-width:991px){
+.protfilo-bottom {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+}
+
+/* ====== About section  Mediam  device responsive =======  */
+@media (min-width:768px) and (max-width:991px){
+ .about-section {
+  display: inline;
+ }
+ .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+ }
+}
+/* ====== carosel section  Mediam  device responsive =======  */
+
+
+/* ====== footer section  Mediam  device responsive =======  */
+@media (min-width:768px) and (max-width:991px){
+  .footer-flex {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+  }
+}
